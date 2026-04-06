@@ -1,6 +1,6 @@
 # Job Application Agent
 
-An autonomous AI agent that researches a job posting and writes a tailored cover letter and interview talking points — in one command.
+An autonomous AI agent that researches a job posting and writes a tailored cover letter and interview talking points in one command.
 
 You give it a job URL and your resume. It scrapes the posting, researches the company, reads your resume, and produces ready-to-use output.
 
