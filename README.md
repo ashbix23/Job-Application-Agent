@@ -46,7 +46,7 @@ Then open `.env` and fill in:
 | Key | Where to get it |
 |-----|----------------|
 | `ANTHROPIC_API_KEY` | https://console.anthropic.com/ |
-| `BRAVE_API_KEY` | https://brave.com/search/api/ — free tier: 2,000 searches/month |
+| `SERPER_API_KEY` | https://serper.dev/ — free tier: 2,500 searches |
 
 ---
 
@@ -117,7 +117,7 @@ job-agent/
 
 - Python 3.9+
 - Anthropic API key
-- Brave Search API key
+- Serper API key
 
 ---
 

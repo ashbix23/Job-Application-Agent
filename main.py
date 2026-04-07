@@ -52,8 +52,8 @@ def check_env():
     missing = []
     if not os.getenv("ANTHROPIC_API_KEY"):
         missing.append("ANTHROPIC_API_KEY")
-    if not os.getenv("BRAVE_API_KEY"):
-        missing.append("BRAVE_API_KEY")
+    if not os.getenv("SERPER_API_KEY"):
+        missing.append("SERPER_API_KEY")
 
     if missing:
         console.print(Panel(
@@ -65,13 +65,12 @@ def check_env():
                 "",
                 "Get your keys at:",
                 "  Anthropic → https://console.anthropic.com/",
-                "  Brave     → https://brave.com/search/api/",
+                "  Serper    → https://serper.dev/",
             ]),
             title="[bold red]Configuration Error[/]",
             border_style="red",
         ))
         sys.exit(1)
-
 
 def check_resume(resume_path: str):
     """Fail fast if the resume file doesn't exist."""
