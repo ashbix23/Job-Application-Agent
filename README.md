@@ -27,7 +27,7 @@ Output is saved as two markdown files in `./output/`.
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/ashbix23/job-agent.git
+git clone https://github.com/ashbix23/Job-Application-Agent.git
 cd job-agent
 ```
 
